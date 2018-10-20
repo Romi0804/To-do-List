@@ -45,10 +45,25 @@ ul {
 }
 
 /*레이아웃*/
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100;
+}
+
+html {
+  background: url(images/background1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 .main {
-  background: pink;
+  // background: pink;
   margin : auto 0;
-  height : 90vh;
+  // height : 90vh;
   text-align : center;
 }
 
@@ -111,3 +126,4 @@ ul {
   font-weight: 700;
   color: white;
 }
+
