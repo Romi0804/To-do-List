@@ -22,6 +22,7 @@ function addTodo (newTodoText) {
   //li태그를 만들어서, 내용을 채운뒤에 문서 안에 삽입하기
   const todoItemEl = document.createElement('li')
   todoItemEl.classList.add('todo-list-item')
+  //클래스를 넣는다!
   todoItemEl.textContent = newTodoText
   todoListEl.appendChild(todoItemEl)
 
@@ -57,7 +58,7 @@ function addTodo (newTodoText) {
   todoItemEl.appendChild(downButtonEl)
   downButtonEl.addEventListener('click', e=>{
     if(todoItemEl.nextElementSibling != null){
-      //null check
+      //null check !
       todoListEl.insertBefore(
       todoItemEl.
       todoItemEl.nestElementSibling.nestElementSibling)
