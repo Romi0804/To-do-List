@@ -59,10 +59,8 @@ function addTodo (newTodoText) {
   downButtonEl.addEventListener('click', e=>{
     if(todoItemEl.nextElementSibling != null){
       //null check !
-      todoListEl.insertBefore(
-      todoItemEl.
-      todoItemEl.nestElementSibling.nestElementSibling)
-    }
+      todoListEl.insertBefore(todoItemEl,
+      todoItemEl.nextElementSibling.nextElementSibling)}
     //alert('Just pressed DOWN Button')
     todoListEl.insertBefore(todoItemEl, todoItemEl.nextElementSibling.nextElementSibling)
   })
