@@ -48,7 +48,7 @@ function addTodo (newTodoText) {
     //alert('Just pressed UP Button')
     todoListEl.insertBefore(todoItemEl, todoItemEl.previousElementSibling)
   })
- // insertBefore의 특징을 조사해보잣 !
+ // insertBefore의 특징을 조사해보잣 !.
 
   //아래로 버튼 만들어서 문서안에 넣기
   const downButtonEl=document.createElement('button')
@@ -83,4 +83,3 @@ function addTodo (newTodoText) {
 //   console.log('keypress')
 //   console.log('key:', e.key)
 // })
-
